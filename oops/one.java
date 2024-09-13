@@ -1,0 +1,1 @@
+// basic of class and object  class has properties and methods suppose we have a class name Cat now the cat has properties like four legs,tail and it is fluffy and it has methods like mhew ,jump and scratch 
