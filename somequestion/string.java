@@ -14,5 +14,6 @@ class Ram {
         }
         
         return i==s.length();
+        // two the 
     }
 }

@@ -10,6 +10,7 @@ public class matrix {
         int j=matrix[0].length-1;
         int count=0;
         while(i<matrix.length && j>=0){
+            // here is actual logic
             if(matrix[i][j]==target){
                 count++;
                 i++;
