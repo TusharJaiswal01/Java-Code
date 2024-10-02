@@ -22,5 +22,6 @@ public class matrix {
             }
         }
         System.out.println(count);
+        
     }
 }
