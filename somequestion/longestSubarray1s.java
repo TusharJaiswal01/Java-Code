@@ -23,7 +23,7 @@ class Solution {
                 
               
               
-                maxLen = max(maxLen, right - left);
+                maxlen
             }
             
             return maxLen;
