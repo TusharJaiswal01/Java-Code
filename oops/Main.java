@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// Class representing a product
+// Class representing a product  and other testings are done
 class Product {
     private String id;
     private String name;
