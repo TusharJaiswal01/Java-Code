@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+iimport java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -158,7 +158,7 @@ public class Main {
     public static void main(String[] args) {
         ECommerceSystem system = new ECommerceSystem();
 
-        // Adding products
+        // Adding product and rendrings
         Product prod1 = new Product("p1", "Laptop", 1000.00);
         Product prod2 = new Product("p2", "Smartphone", 500.00);
         system.addProduct(prod1);
