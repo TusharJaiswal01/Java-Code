@@ -2,7 +2,7 @@ iimport java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+import javs.util.Map;
 // Class representing a product  and other testings are done
 class Product {
     private String id;
