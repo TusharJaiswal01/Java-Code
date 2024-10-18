@@ -48,7 +48,7 @@
                 int twinSum = firstHalfHead->val + secondHalfHead->val;
                 maxTwinSum = std::max(maxTwinSum, twinSum);
                 
-                // Move both pointers forward
+                // Move both pointers forward this is move
                 firstHalfHead = firstHalfHead->next;
                 secondHalfHead = secondHalfHead->next;
             }
