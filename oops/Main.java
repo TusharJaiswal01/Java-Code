@@ -22,6 +22,7 @@ class Product {
     public String getName() {
         return name;
     }
+//here js code for that logic
 
     public double getPrice() {
         return price;
