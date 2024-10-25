@@ -68,7 +68,7 @@ class Order {
     }
 
     public double getTotal() {
-        return total;
+        return total;//test
     }
 
     @Override
