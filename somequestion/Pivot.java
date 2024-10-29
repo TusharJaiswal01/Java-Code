@@ -21,7 +21,7 @@ public class Pivot {
             }
 
             
-            leftSum += array[i];
+            leftSum += array[i];//here sum store and next iterate
         }
 
        
