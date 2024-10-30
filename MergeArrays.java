@@ -1,4 +1,4 @@
-import java.util.Arrays;
+9import java.util.Arrays;
 import java.util.Scanner;
 
 public class MergeArrays {
@@ -47,6 +47,6 @@ public class MergeArrays {
         for (int num : array2) {
             result[i++] = num;
         }
-        return result;
+        return result;//here result return in variable
     }
 }
