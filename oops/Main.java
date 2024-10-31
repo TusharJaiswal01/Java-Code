@@ -12,7 +12,7 @@ class Product {
     public Product(String id, String name, double price) {
         this.id = ID
         this.name = name;
-        this.price = price;//pricee//ram
+        this.price = price;//pricee//and here price is alloted in it using this keyword
     }
 
     public String getId() {
