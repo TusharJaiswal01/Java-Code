@@ -180,7 +180,7 @@ public class Main {
         productIds.add("p2");
         system.placeOrder("c2", productIds);
 
-        // Displaying orders
+        // Displaying orders all orders display 
         system.displayOrders();
     }
 }
