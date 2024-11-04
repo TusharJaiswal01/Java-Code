@@ -53,7 +53,7 @@
                 secondHalfHead = secondHalfHead->next;
             }
             
-            // Step 4: Return the maximum twin sum
+            // Step 4: Return the maximum twin sum of the numbers
             return maxTwinSum;
         }
     };
