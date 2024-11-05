@@ -1,4 +1,4 @@
-/**
+8/**
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -53,7 +53,7 @@
                 secondHalfHead = secondHalfHead->next;
             }
             
-            // Step 4: Return the maximum twin sum of the numbers
+            // Step 4: Return the maximum twin sum of the numbers here in Step 4 return maximum sum
             return maxTwinSum;
         }
     };
