@@ -171,7 +171,7 @@ public class Main {
         system.addCustomer(cust1);
         system.addCustomer(cust2);
 
-        // Placing orders
+        // Placing orders on Demands 
         List<String> productIds = new ArrayList<>();
         productIds.add("p1");
         system.placeOrder("c1", productIds);
