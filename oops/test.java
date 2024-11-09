@@ -27,7 +27,7 @@
         }
         
         int pairSum(ListNode* head) {
-            // Step 1: Use two pointers to find the middle of the list
+            // Step 1: Use two pointers to find the middle of the list  test
             ListNode* slow = head;
             ListNode* fast = head;
             
