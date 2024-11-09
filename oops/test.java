@@ -11,7 +11,7 @@
 
  class Solution {
     public:
-        //it is helper  Helper function to reverse a linked list
+        //it is helper  Helper function to reverse a linked list test one
         ListNode* reverseList(ListNode* head) {
             ListNode* prev = nullptr;
             ListNode* curr = head;
