@@ -38,7 +38,7 @@ class Product {
 class Order {
     private static int orderCount = 0;
     private int orderId;
-    // this is private order id
+    // this is private order id thsi is the test of the 
     private Customer customer;
     private List<Product> products;
     private double total;
