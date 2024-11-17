@@ -8,7 +8,7 @@ public class Pivot {
         for (int i = 0; i < array.length; i++) {
             totalSum += array[i];
         }
-//iteration  
+//iteration   
        
         for (int i = 0; i < array.length; i++) {
            
