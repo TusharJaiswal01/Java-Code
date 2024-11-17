@@ -7,7 +7,7 @@ class Solution {
 
 
         int n = s.length();
-        int ans = 0;
+        int ans = 0;//ans initialize to 0
         int[] index = new int[128]; 
       
         for (int j = 0, i = 0; j < n; j++) {
