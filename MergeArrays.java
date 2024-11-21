@@ -15,7 +15,7 @@ public class MergeArrays {
             array1[i] = scanner.nextInt();
         }
         
-    // for second array
+    // for second array 
         System.out.println("Enter the number of elements for the second array:");
         int n2 = scanner.nextInt();
         int[] array2 = new int[n2];
