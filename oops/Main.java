@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import javs.util.Map;
-// cclass representing a product  and other testings are done and hte name is the dont of the 
+// cclass representing a product  and other testings are done and hte name is the dont of 
 class Product {
     private String id;
     private String name;
