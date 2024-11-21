@@ -8,7 +8,7 @@ public class MergeArrays {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-      
+       
         System.out.println("Enter the number of elements for the first array:");
         int n1 = scanner.nextInt();
         int[] array1 = new int[n1];
