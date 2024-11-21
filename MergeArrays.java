@@ -28,7 +28,7 @@ public class MergeArrays {
         
         // for  merging two arrays
         int[] mergedArray = mergeArrays(array1, array2);
-        
+         
 
         Arrays.sort(mergedArray);
         
