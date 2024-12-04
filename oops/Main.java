@@ -1,4 +1,4 @@
-//note: java is platform independent language because of byte code jvm jav virtual machine 
+//note: java is platform independent language because of byte code jvm jav virtual machine help in 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
