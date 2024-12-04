@@ -1,6 +1,6 @@
 class Animal {
     String name;
-
+// parameterized constructor like c++
     Animal(String name) {
         this.name = name;
     }
