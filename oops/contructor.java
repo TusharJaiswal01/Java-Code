@@ -9,7 +9,7 @@ class Animal {
         System.out.println("Some generic animal sound");
     }
 }
-
+//inherit pro
 class Dog extends Animal {
     Dog(String name) {
         super(name);
