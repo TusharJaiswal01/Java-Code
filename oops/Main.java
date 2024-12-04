@@ -1,3 +1,4 @@
+//note: java is platform independent language
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
