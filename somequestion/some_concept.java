@@ -61,3 +61,23 @@ public class SyncExample {
         System.out.println("Final count: " + counter.getCount());
     }
 }
+
+
+public class ThreadLifecycle extends Thread {
+    public void run() {
+        try {
+            System.out.println("Thread is running...");
+            Thread.sleep(1000); // Simulating waiting state
+            System.out.println("Thread is terminated.");
+        } catch (InterruptedException e) {
+            System.out.println("Thread interrupted.");
+        }
+    }
+
+    public static void main(String[] args) {
+        ThreadLifecycle thread = new ThreadLifecycle();
+        System.out.println("Thread state: " + thread.getState());
+        thread.start();
+        System.out.println("Thread state after start: " + thread.getState());
+    }
+}
