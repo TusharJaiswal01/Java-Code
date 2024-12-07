@@ -16,3 +16,15 @@ public class MultiTaskingExample implements Runnable {
 
     public static void main(String[] args) {
         Thread t1 = new Thread(new MultiTaskingExample("
+
+
+public class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread running using Thread class.");
+    }
+
+    public static void main(String[] args) {
+        MyThread thread = new MyThread();
+        thread.start();
+    }
+}
