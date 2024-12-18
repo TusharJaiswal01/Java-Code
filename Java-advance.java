@@ -9,3 +9,22 @@ public class HelloWorldServlet extends HttpServlet {
         out.println("<h1>Hello, World!</h1>");
     }
 }
+
+
+
+
+
+import java.sql.*;
+
+public class JDBCExample {
+    public static void main(String[] args) throws Exception {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "password");
+        Statement stmt = con.createStatement();
+        ResultSet rs = stmt.executeQuery("SELECT * FROM users");
+        while (rs.next()) {
+            System.out.println(rs.getString("name") + " - " + rs.getInt("age"));
+        }
+        con.close();
+    }
+}
