@@ -114,3 +114,17 @@ public class LambdaExample {
         list.forEach(s -> System.out.println(s));
     }
 }
+
+
+import org.json.simple.*;
+import org.json.simple.parser.*;
+
+import java.io.FileReader;
+
+public class ReadJSONExample {
+    public static void main(String[] args) throws Exception {
+        JSONParser parser = new JSONParser();
+        JSONObject jsonObject = (JSONObject) parser.parse(new FileReader("data.json"));
+        System.out.println(jsonObject.get("name"));
+    }
+}
