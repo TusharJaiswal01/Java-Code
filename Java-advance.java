@@ -28,3 +28,15 @@ public class JDBCExample {
         con.close();
     }
 }
+
+
+
+
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
+<html>
+<body>
+    <h2>Welcome to JSP</h2>
+    <p>Current Date: <%= new java.util.Date() %></p>
+</body>
+</html>
