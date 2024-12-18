@@ -40,3 +40,18 @@ public class JDBCExample {
     <p>Current Date: <%= new java.util.Date() %></p>
 </body>
 </html>
+
+
+
+
+
+public class MyThread implements Runnable {
+    public void run() {
+        System.out.println("Thread is running");
+    }
+
+    public static void main(String[] args) {
+        Thread t = new Thread(new MyThread());
+        t.start();
+    }
+}
