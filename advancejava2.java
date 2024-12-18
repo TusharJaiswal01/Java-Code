@@ -22,3 +22,25 @@ public class ReflectionExample {
         }
     }
 }
+
+
+
+
+
+public class GenericExample<T> {
+    private T obj;
+
+    public void set(T obj) {
+        this.obj = obj;
+    }
+
+    public T get() {
+        return obj;
+    }
+
+    public static void main(String[] args) {
+        GenericExample<String> example = new GenericExample<>();
+        example.set("Generics in Java");
+        System.out.println(example.get());
+    }
+}
