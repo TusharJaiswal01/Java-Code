@@ -103,3 +103,14 @@ public class AnnotationExample {
         System.out.println(annotation.value());
     }
 }
+
+
+
+import java.util.*;
+
+public class LambdaExample {
+    public static void main(String[] args) {
+        List<String> list = Arrays.asList("Java", "Advanced", "Code");
+        list.forEach(s -> System.out.println(s));
+    }
+}
