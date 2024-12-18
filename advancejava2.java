@@ -123,3 +123,14 @@ public class SerializationExample {
         out.close();
     }
 }
+
+import java.io.*;
+
+public class DeserializationExample {
+    public static void main(String[] args) throws Exception {
+        ObjectInputStream in = new ObjectInputStream(new FileInputStream("person.dat"));
+        Person p = (Person) in.readObject();
+        System.out.println(p.name + " - " + p.age);
+        in.close();
+    }
+}
