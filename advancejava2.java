@@ -88,3 +88,18 @@ public class StreamsExample {
                .forEach(System.out::println);
     }
 }
+
+
+
+import java.util.regex.*;
+
+public class RegexExample {
+    public static void main(String[] args) {
+        String text = "Java is fun!";
+        Pattern pattern = Pattern.compile("Java");
+        Matcher matcher = pattern.matcher(text);
+        if (matcher.find()) {
+            System.out.println("Found: " + matcher.group());
+        }
+    }
+}
