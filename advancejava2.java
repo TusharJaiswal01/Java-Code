@@ -103,3 +103,23 @@ public class RegexExample {
         }
     }
 }
+
+
+import java.io.*;
+
+class Person implements Serializable {
+    String name;
+    int age;
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+public class SerializationExample {
+    public static void main(String[] args) throws IOException {
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("person.dat"));
+        out.writeObject(new Person("Alice", 30));
+        out.close();
+    }
+}
