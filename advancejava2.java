@@ -60,3 +60,17 @@ public class CallableExample {
         executor.shutdown();
     }
 }
+
+
+
+enum Days {
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+
+public class EnumExample {
+    public static void main(String[] args) {
+        for (Days day : Days.values()) {
+            System.out.println(day);
+        }
+    }
+}
