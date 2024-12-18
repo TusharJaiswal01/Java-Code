@@ -80,3 +80,26 @@ public class Server {
         System.out.println("Client says: " + in.readLine());
     }
 }
+
+
+import java.lang.annotation.*;
+import java.lang.reflect.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+@interface MyAnnotation {
+    String value();
+}
+
+public class AnnotationExample {
+    @MyAnnotation(value = "Hello, Annotation!")
+    public void sayHello() {
+        System.out.println("This is an annotated method");
+    }
+
+    public static void main(String[] args) throws Exception {
+        Method m = AnnotationExample.class.getMethod("sayHello");
+        MyAnnotation annotation = m.getAnnotation(MyAnnotation.class);
+        System.out.println(annotation.value());
+    }
+}
