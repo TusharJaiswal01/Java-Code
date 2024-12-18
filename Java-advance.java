@@ -55,3 +55,14 @@ public class MyThread implements Runnable {
         t.start();
     }
 }
+
+
+import java.io.*;
+
+public class FileWriteExample {
+    public static void main(String[] args) throws IOException {
+        FileWriter writer = new FileWriter("output.txt");
+        writer.write("Hello, Advanced Java!");
+        writer.close();
+    }
+}
