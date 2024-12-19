@@ -116,3 +116,17 @@ public class CharCounter {
         System.out.println(countChar("programming", 'g')); // 2
     }
 }
+
+
+
+
+import java.util.Random;
+
+public class RandomNumbers {
+    public static void main(String[] args) {
+        Random rand = new Random();
+        for (int i = 0; i < 5; i++) {
+            System.out.println(rand.nextInt(100)); // Random number between 0-99
+        }
+    }
+}
