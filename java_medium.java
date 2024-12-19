@@ -81,3 +81,20 @@ public class ReverseInteger {
         System.out.println(reverse(1234)); // 4321
     }
 }
+
+
+
+
+
+
+
+
+public class LeapYear {
+    public static boolean isLeapYear(int year) {
+        return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+    }
+    public static void main(String[] args) {
+        System.out.println(isLeapYear(2024)); // true
+        System.out.println(isLeapYear(2023)); // false
+    }
+}
