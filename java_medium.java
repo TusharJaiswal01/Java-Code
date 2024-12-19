@@ -33,3 +33,18 @@ public class BinarySearch {
         System.out.println(binarySearch(arr, 4)); // 3
     }
 }
+
+
+
+
+
+
+public class WordCounter {
+    public static int countWords(String sentence) {
+        if (sentence == null || sentence.isEmpty()) return 0;
+        return sentence.split("\\s+").length;
+    }
+    public static void main(String[] args) {
+        System.out.println(countWords("Hello world! Java is fun.")); // 5
+    }
+}
