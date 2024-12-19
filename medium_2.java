@@ -74,3 +74,14 @@ public class AnagramCheck {
         System.out.println(isAnagram("hello", "world")); // false
     }
 }
+
+
+
+public class RemoveVowels {
+    public static String removeVowels(String str) {
+        return str.replaceAll("[aeiouAEIOU]", "");
+    }
+    public static void main(String[] args) {
+        System.out.println(removeVowels("hello world")); // "hll wrld"
+    }
+}
