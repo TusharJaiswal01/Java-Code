@@ -122,3 +122,22 @@ public class SecondLargest {
         System.out.println(findSecondLargest(arr)); // 7
     }
 }
+
+
+
+
+public class FibonacciSeries {
+    public static void printFibonacci(int n) {
+        int a = 0, b = 1;
+        System.out.print(a + " " + b);
+        for (int i = 2; i < n; i++) {
+            int next = a + b;
+            System.out.print(" " + next);
+            a = b;
+            b = next;
+        }
+    }
+    public static void main(String[] args) {
+        printFibonacci(10); // 0 1 1 2 3 5 8 13 21 34
+    }
+}
