@@ -98,3 +98,21 @@ public class SortArray {
         System.out.println(Arrays.toString(arr)); // [1, 2, 3, 5, 8]
     }
 }
+
+
+
+
+
+
+public class CharCounter {
+    public static int countChar(String str, char ch) {
+        int count = 0;
+        for (char c : str.toCharArray()) {
+            if (c == ch) count++;
+        }
+        return count;
+    }
+    public static void main(String[] args) {
+        System.out.println(countChar("programming", 'g')); // 2
+    }
+}
