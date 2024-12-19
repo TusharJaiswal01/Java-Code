@@ -42,3 +42,20 @@ public class StringToInt {
         System.out.println(convert("123")); // 123
     }
 }
+
+
+
+
+public class MaxInArray {
+    public static int findMax(int[] arr) {
+        int max = arr[0];
+        for (int num : arr) {
+            if (num > max) max = num;
+        }
+        return max;
+    }
+    public static void main(String[] args) {
+        int[] arr = {3, 5, 7, 2, 8};
+        System.out.println(findMax(arr)); // 8
+    }
+}
