@@ -64,3 +64,20 @@ public class SumOfDigits {
         System.out.println(sumDigits(1234)); // 10
     }
 }
+
+
+
+
+public class ReverseInteger {
+    public static int reverse(int num) {
+        int rev = 0;
+        while (num != 0) {
+            rev = rev * 10 + num % 10;
+            num /= 10;
+        }
+        return rev;
+    }
+    public static void main(String[] args) {
+        System.out.println(reverse(1234)); // 4321
+    }
+}
