@@ -29,3 +29,16 @@ public class DigitCounter {
         System.out.println(countDigits(12345)); // 5
     }
 }
+
+
+
+
+
+public class StringToInt {
+    public static int convert(String str) {
+        return Integer.parseInt(str);
+    }
+    public static void main(String[] args) {
+        System.out.println(convert("123")); // 123
+    }
+}
