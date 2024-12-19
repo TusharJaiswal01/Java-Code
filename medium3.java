@@ -101,3 +101,24 @@ public class EvenOdd {
         System.out.println(isEven(15)); // false
     }
 }
+
+
+
+public class SecondLargest {
+    public static int findSecondLargest(int[] arr) {
+        int largest = Integer.MIN_VALUE, second = Integer.MIN_VALUE;
+        for (int num : arr) {
+            if (num > largest) {
+                second = largest;
+                largest = num;
+            } else if (num > second && num < largest) {
+                second = num;
+            }
+        }
+        return second;
+    }
+    public static void main(String[] args) {
+        int[] arr = {3, 5, 7, 2, 8};
+        System.out.println(findSecondLargest(arr)); // 7
+    }
+}
