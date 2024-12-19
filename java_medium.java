@@ -98,3 +98,16 @@ public class LeapYear {
         System.out.println(isLeapYear(2023)); // false
     }
 }
+
+
+
+
+
+public class DecimalToBinary {
+    public static String toBinary(int num) {
+        return Integer.toBinaryString(num);
+    }
+    public static void main(String[] args) {
+        System.out.println(toBinary(10)); // "1010"
+    }
+}
