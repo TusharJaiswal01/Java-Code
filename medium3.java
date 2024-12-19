@@ -141,3 +141,21 @@ public class FibonacciSeries {
         printFibonacci(10); // 0 1 1 2 3 5 8 13 21 34
     }
 }
+
+
+
+
+
+public class PrimeNumber {
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+    public static void main(String[] args) {
+        System.out.println(isPrime(7)); // true
+        System.out.println(isPrime(10)); // false
+    }
+}
