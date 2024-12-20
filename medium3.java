@@ -234,3 +234,12 @@ public class ToggleCase {
         System.out.println("Toggled case: " + toggled);
     }
 }
+
+
+
+public class RemoveDuplicates {
+    public static void main(String[] args) {
+        String str = "programming";
+        StringBuilder result = new StringBuilder();
+        for (char c : str.toCharArray()) {
+            if (result.indexOf(String.valueOf(c)) == -1)
