@@ -124,3 +124,12 @@ public class CountDigits {
         System.out.println("Number of digits: " + count);
     }
 }
+
+
+
+public class AsciiValue {
+    public static void main(String[] args) {
+        char ch = 'A';
+        System.out.println("ASCII value of " + ch + ": " + (int) ch);
+    }
+}
