@@ -201,3 +201,12 @@ public class ReverseWords {
         System.out.println("Reversed words: " + reversed);
     }
 }
+
+
+
+public class IsDigitOnly {
+    public static void main(String[] args) {
+        String str = "12345";
+        System.out.println(str.matches("\\d+") ? "Only digits" : "Contains non-digit characters");
+    }
+}
