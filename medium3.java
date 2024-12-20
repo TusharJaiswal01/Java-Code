@@ -190,3 +190,14 @@ public class ArmstrongNumber {
         System.out.println(isArmstrong(153)); // true
     }
 }
+
+
+
+public class ReverseWords {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        String[] words = str.split(" ");
+        String reversed = String.join(" ", new StringBuilder(words[1]).reverse(), new StringBuilder(words[0]).reverse());
+        System.out.println("Reversed words: " + reversed);
+    }
+}
