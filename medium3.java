@@ -210,3 +210,15 @@ public class IsDigitOnly {
         System.out.println(str.matches("\\d+") ? "Only digits" : "Contains non-digit characters");
     }
 }
+
+
+public class PalindromeNumber {
+    public static void main(String[] args) {
+        int num = 121, original = num, reversed = 0;
+        while (num != 0) {
+            reversed = reversed * 10 + num % 10;
+            num /= 10;
+        }
+        System.out.println(original + " is " + (original == reversed ? "a palindrome" : "not a palindrome"));
+    }
+}
