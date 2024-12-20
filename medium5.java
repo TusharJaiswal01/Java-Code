@@ -152,3 +152,14 @@ public class OppositeSigns {
         System.out.println((x ^ y) < 0 ? "Opposite signs" : "Same signs");
     }
 }
+
+
+
+
+public class MaxOfTwo {
+    public static void main(String[] args) {
+        int a = 10, b = 20;
+        int max = a ^ ((a ^ b) & -(a < b ? 1 : 0));
+        System.out.println("Maximum: " + max);
+    }
+}
