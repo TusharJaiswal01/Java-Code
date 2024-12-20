@@ -103,3 +103,12 @@ public class ReverseNumber {
         System.out.println("Reversed number: " + reversed);
     }
 }
+
+
+
+public class EvenOddCheck {
+    public static void main(String[] args) {
+        int num = 7;
+        System.out.println(num + " is " + ((num & 1) == 0 ? "even" : "odd"));
+    }
+}
