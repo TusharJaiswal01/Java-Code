@@ -222,3 +222,15 @@ public class PalindromeNumber {
         System.out.println(original + " is " + (original == reversed ? "a palindrome" : "not a palindrome"));
     }
 }
+
+
+public class ToggleCase {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        StringBuilder toggled = new StringBuilder();
+        for (char c : str.toCharArray()) {
+            toggled.append(Character.isUpperCase(c) ? Character.toLowerCase(c) : Character.toUpperCase(c));
+        }
+        System.out.println("Toggled case: " + toggled);
+    }
+}
