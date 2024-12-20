@@ -267,3 +267,15 @@ public class GCD {
         return (b == 0) ? a : gcd(b, a % b);
     }
 }
+
+
+public class Combination {
+    public static void main(String[] args) {
+        int n = 5, r = 2;
+        System.out.println("nCr: " + factorial(n) / (factorial(r) * factorial(n - r)));
+    }
+
+    static int factorial(int num) {
+        return (num == 0) ? 1 : num * factorial(num - 1);
+    }
+}
