@@ -1,4 +1,4 @@
-public class ArraySum {
+7public class ArraySum {
     public static int sumArray(int[] arr) {
         int sum = 0;
         for (int num : arr) {
@@ -253,5 +253,17 @@ public class FactorialRecursion {
 
     static int factorial(int n) {
         return (n == 0) ? 1 : n * factorial(n - 1);
+    }
+}
+
+
+public class GCD {
+    public static void main(String[] args) {
+        int a = 56, b = 98;
+        System.out.println("GCD: " + gcd(a, b));
+    }
+
+    static int gcd(int a, int b) {
+        return (b == 0) ? a : gcd(b, a % b);
     }
 }
