@@ -68,3 +68,15 @@ public class MergeArrays {
         System.out.println("Merged array: " + Arrays.toString(result));
     }
 }
+
+
+
+
+import java.nio.file.*;
+
+public class FileRead {
+    public static void main(String[] args) throws Exception {
+        String content = Files.readString(Path.of("example.txt"));
+        System.out.println(content);
+    }
+}
