@@ -133,3 +133,15 @@ public class AsciiValue {
         System.out.println("ASCII value of " + ch + ": " + (int) ch);
     }
 }
+
+
+public class PowerCalculation {
+    public static void main(String[] args) {
+        int base = 3, exp = 4, result = 1;
+        while (exp > 0) {
+            result *= base;
+            exp--;
+        }
+        System.out.println("Result: " + result);
+    }
+}
