@@ -243,3 +243,15 @@ public class RemoveDuplicates {
         StringBuilder result = new StringBuilder();
         for (char c : str.toCharArray()) {
             if (result.indexOf(String.valueOf(c)) == -1)
+
+
+public class FactorialRecursion {
+    public static void main(String[] args) {
+        int num = 5;
+        System.out.println("Factorial: " + factorial(num));
+    }
+
+    static int factorial(int n) {
+        return (n == 0) ? 1 : n * factorial(n - 1);
+    }
+}
