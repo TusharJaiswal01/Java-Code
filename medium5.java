@@ -1,4 +1,4 @@
-6public class WordCount {
+76public class WordCount {
     public static void main(String[] args) {
         String str = "Hello world, welcome to Java.";
         int wordCount = str.split("\\s+").length;
@@ -173,5 +173,12 @@ public class SumOfDigits {
             num /= 10;
         }
         System.out.println("Sum of digits: " + sum);
+    }
+
+
+public class PowerOfTwo {
+    public static void main(String[] args) {
+        int num = 16;
+        System.out.println(num + " is " + ((num > 0 && (num & (num - 1)) == 0) ? "a power of 2" : "not a power of 2"));
     }
 }
