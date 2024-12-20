@@ -156,3 +156,18 @@ public class LeapYear {
         System.out.println(year + " is " + (isLeap ? "a leap year" : "not a leap year"));
     }
 }
+
+
+
+
+
+public class GCD {
+    public static int gcd(int a, int b) {
+        if (b == 0) return a;
+        return gcd(b, a % b);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("GCD of 54 and 24: " + gcd(54, 24));
+    }
+}
