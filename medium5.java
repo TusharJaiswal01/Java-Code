@@ -182,3 +182,16 @@ public class PowerOfTwo {
         System.out.println(num + " is " + ((num > 0 && (num & (num - 1)) == 0) ? "a power of 2" : "not a power of 2"));
     }
 }
+
+
+
+public class SingleNumber {
+    public static void main(String[] args) {
+        int[] arr = {2, 3, 2, 4, 3};
+        int result = 0;
+        for (int num : arr) {
+            result ^= num;
+        }
+        System.out.println("Single number: " + result);
+    }
+}
