@@ -46,3 +46,19 @@ public class MissingNumber {
         System.out.println("Missing number: " + sum);
     }
 }
+
+import java.util.Arrays;
+
+public class MergeArrays {
+    public static void main(String[] args) {
+        int[] a = {1, 3, 5};
+        int[] b = {2, 4, 6};
+        int[] result = new int[a.length + b.length];
+
+        System.arraycopy(a, 0, result, 0, a.length);
+        System.arraycopy(b, 0, result, a.length, b.length);
+        Arrays.sort(result);
+
+        System.out.println("Merged array: " + Arrays.toString(result));
+    }
+}
