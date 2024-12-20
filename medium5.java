@@ -1,4 +1,4 @@
-public class WordCount {
+6public class WordCount {
     public static void main(String[] args) {
         String str = "Hello world, welcome to Java.";
         int wordCount = str.split("\\s+").length;
@@ -161,5 +161,17 @@ public class MaxOfTwo {
         int a = 10, b = 20;
         int max = a ^ ((a ^ b) & -(a < b ? 1 : 0));
         System.out.println("Maximum: " + max);
+    }
+}
+
+
+public class SumOfDigits {
+    public static void main(String[] args) {
+        int num = 1234, sum = 0;
+        while (num > 0) {
+            sum += num % 10;
+            num /= 10;
+        }
+        System.out.println("Sum of digits: " + sum);
     }
 }
