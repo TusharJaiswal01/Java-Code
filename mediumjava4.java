@@ -39,3 +39,13 @@ public class PrimeCheck {
         System.out.println(num + " is " + (isPrime ? "prime" : "not prime"));
     }
 }
+
+
+
+public class ReverseString {
+    public static void main(String[] args) {
+        String input = "hello";
+        String reversed = new StringBuilder(input).reverse().toString();
+        System.out.println("Reversed string: " + reversed);
+    }
+}
