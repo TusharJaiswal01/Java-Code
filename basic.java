@@ -50,3 +50,11 @@ public class ReverseString {
         System.out.println(reversed);
     }
 }
+
+
+public class Palindrome {
+    public static void main(String[] args) {
+        String str = "radar";
+        System.out.println(str.equals(new StringBuilder(str).reverse().toString()) ? "Palindrome" : "Not Palindrome");
+    }
+}
