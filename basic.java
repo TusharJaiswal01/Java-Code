@@ -58,3 +58,12 @@ public class Palindrome {
         System.out.println(str.equals(new StringBuilder(str).reverse().toString()) ? "Palindrome" : "Not Palindrome");
     }
 }
+
+
+public class VowelCount {
+    public static void main(String[] args) {
+        String str = "hello";
+        long count = str.chars().filter(c -> "aeiou".indexOf(c) != -1).count();
+        System.out.println("Vowels: " + count);
+    }
+}
