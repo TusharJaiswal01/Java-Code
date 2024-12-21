@@ -24,3 +24,16 @@ public class ArrayEquality {
         System.out.println(Arrays.equals(arr1, arr2));
     }
 }
+
+import java.util.*;
+public class FindDuplicates {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 2};
+        Set<Integer> seen = new HashSet<>();
+        for (int num : arr) {
+            if (!seen.add(num)) {
+                System.out.println("Duplicate: " + num);
+            }
+        }
+    }
+}
