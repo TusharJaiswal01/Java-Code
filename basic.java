@@ -19,3 +19,12 @@ public class EvenOdd {
         System.out.println(num % 2 == 0 ? "Even" : "Odd");
     }
 }
+
+
+public class Factorial {
+    public static void main(String[] args) {
+        int n = 5, fact = 1;
+        for (int i = 1; i <= n; i++) fact *= i;
+        System.out.println("Factorial: " + fact);
+    }
+}
