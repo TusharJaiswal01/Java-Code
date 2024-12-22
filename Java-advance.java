@@ -96,6 +96,7 @@ public class AnnotationExample {
     public void sayHello() {
         System.out.println("This is an annotated method");
     }
+public
 
     public static void main(String[] args) throws Exception {
         Method m = AnnotationExample.class.getMethod("sayHello");
