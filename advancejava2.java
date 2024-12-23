@@ -10,7 +10,7 @@ public class TimerExample {
         }, 1000, 2000);
     }
 }
-//timer
+//ti
 import java.lang.reflect.*;
 
 public class ReflectionExample {
